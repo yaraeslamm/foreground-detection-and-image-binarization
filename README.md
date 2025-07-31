@@ -1,0 +1,1 @@
+# foreground-detection-and-image-binarization
