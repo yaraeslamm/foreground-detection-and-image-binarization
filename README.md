@@ -29,9 +29,17 @@ $$
 - Applied thresholding and masking to extract the foreground.
 
 ### Output
-- `foreground_images/`: Extracted moving objects  
-- `mask_images/`: Binary motion masks  
-- `background_images/`: Updated background models
+The outputs for this task are available in the shared Google Drive folder below:
+
+🔗 [View Outputs on Google Drive](https://drive.google.com/drive/folders/1EarYQkRevn5w3sR7idJ5NpmQkS6pRXN9?usp=sharing)
+
+Inside this folder:
+
+- `foreground_images/`: Extracted moving objects from each video frame
+- `mask_images/`: Binary motion masks representing detected foreground
+- `background_images/`: The evolving background model used per frame
+
+> **Note:** Outputs are saved as `.png` images and named sequentially by frame index.
 
 ### Before You Run
 Update these paths in the notebook:
